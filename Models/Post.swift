@@ -7,3 +7,15 @@
 //
 
 import Foundation
+
+class Post: NSObject {
+    
+    var name: String?
+    var statusText: String?
+    var profileImageName: String?
+    var statusImageName: String?
+    var numLikes: Int?
+    var numComments: Int?
+    var statusImageURL: String?
+    
+}
